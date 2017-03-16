@@ -1,0 +1,89 @@
+.socialMedia{
+  display: inline-flex;\
+  letter-spacing: 5px;
+}
+
+.socialMedia li {
+  padding-left: 8px;
+  font-size: 1.5rem;
+}
+
+.back-to-top{
+  right: 40px;
+}
+
+.slide1{
+  background: url(../images/realhome.jpg) top left no-repeat;
+background-size: cover;
+}
+
+.slide2{
+  background: url(../images/home.jpeg) top left no-repeat;
+background-size: cover;
+}
+
+.slide3{
+  background: url(../images/kitchenpage.jpg) top left no-repeat;
+background-size: cover;
+}
+
+.slide4{
+  background: url(../images/livingpage.jpg) top left no-repeat;
+background-size: cover;
+}
+
+#pic4{
+  height: !important 236px;
+  width: !important 350px;
+}
+
+#sos{
+  margin-right: 11px;
+}
+
+.navigation span{
+background-color: !important#E5E4E2;
+}
+
+#mailTime{
+  position: fixed;
+  width: 79%;
+}
+#numba{
+  padding-right: 45px;
+}
+
+#insta{
+  width: 1px;
+}
+#duct{
+  height: 236px;
+}
+
+@media only screen and (max-width: 667px) {
+    #mailTime {
+        padding-top: 25px;
+    }
+    .slide1 {
+      margin-top: 191px;
+    }
+    .slide2 {
+      margin-top: 191px;
+    }
+    .slide3 {
+      margin-top: 191px;
+    }
+    .slide4 {
+      margin-top: 191px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #mailTime {
+        position: fixed;
+        margin-top:  75px;
+    }
+    #logoz {
+        width: 100%;
+    }
+}
